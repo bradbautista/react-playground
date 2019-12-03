@@ -29,6 +29,7 @@ class HelloWorld extends React.Component {
     render() {
       return (
         <div>
+          <h2>Hello, variable</h2>
           <p>Hello {this.state.who}!</p>
           <button 
             onClick={this.worldClick}

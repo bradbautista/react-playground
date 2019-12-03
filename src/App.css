@@ -1,3 +1,9 @@
+ul {
+    list-style-type: none;
+    margin: none;
+    padding: 0;
+}
+
 .App {
     display: flex;
     flex-wrap: wrap;
@@ -11,8 +17,23 @@
     background-color: lightgray;
 }
 
+.App h2 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
 .App div p {
     margin-top: 0;
+}
+
+.App .content {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+}
+
+.Accordion {
+    max-width: 40%;
 }
 
 .left {

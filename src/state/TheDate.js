@@ -27,7 +27,10 @@ class TheDate extends React.Component {
     render() {
         // console.log('render')
         return (
-        <div>{this.state.datetime.toLocaleString()}</div>
+        <div>
+        <h2>Datetime</h2>
+        <p>{this.state.datetime.toLocaleString()}</p>
+        </div>
         )
     }
 

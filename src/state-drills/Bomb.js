@@ -46,6 +46,7 @@ class Bomb extends React.Component {
     render() {
       return (
         <div>
+          <h2>Small bomb</h2>
           <p>{this.state.word}</p>
           {/* <p>{this.state.count}</p> */}
         </div>

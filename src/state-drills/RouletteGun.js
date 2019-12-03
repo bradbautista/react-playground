@@ -45,6 +45,7 @@ class RouletteGun extends React.Component {
     render() {
       return (
         <div>
+          <h2>Russian roulette</h2>
           <p>{this.state.prompt}</p>
           <button
             onClick={this.triggerPull}
