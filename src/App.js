@@ -10,6 +10,7 @@ import Bomb from './state-drills/Bomb';
 import RouletteGun from './state-drills/RouletteGun';
 import Tabs from './state/Tabs';
 import TabsAssignment from './state/TabsAssignment';
+import DemonymApp from './demonymapp/DemonymApp';
 
 // -----------------
 // TOOLTIP & SPLIT
@@ -95,6 +96,7 @@ class App extends Component {
         <RouletteGun />
         <Tabs tabs={tabsProp}/>
         <TabsAssignment sections={sections} />
+        <DemonymApp />
       </div>
     )
   }

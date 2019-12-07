@@ -1,5 +1,5 @@
 import React from 'react';
-import { NONAME } from 'dns';
+// import { NONAME } from 'dns';
 
 class Tabs extends React.Component {
     constructor(props) {

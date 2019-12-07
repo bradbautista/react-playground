@@ -21,7 +21,7 @@ class RouletteGun extends React.Component {
             prompt: 'Spinning the chamber...'
         })
 
-        let timeout = setTimeout(() => {
+        setTimeout(() => {
 
             let fate = Math.ceil(Math.random() * 8);
 
